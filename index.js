@@ -166,14 +166,14 @@ loop();
 function loop(){
 
 setTimeout(function(){document.querySelector(".main__section__photo__1").classList.add("hidden");},900);
-setTimeout(function(){document.querySelector(".main__section__photo__1").src="/img/fashion4.jpg";},2300);
+setTimeout(function(){document.querySelector(".main__section__photo__1").src="img/fashion4.jpg";},2300);
 setTimeout(function(){document.querySelector(".main__section__photo__1").classList.remove("hidden");},2400);
 setTimeout(function(){document.querySelector(".main__section__photo__1").classList.add("hidden");},4500);
-setTimeout(function(){document.querySelector(".main__section__photo__1").src="/img/fashion5.jpg";},5900);
+setTimeout(function(){document.querySelector(".main__section__photo__1").src="img/fashion5.jpg";},5900);
 setTimeout(function(){document.querySelector(".main__section__photo__1").classList.remove("hidden");},6000);
 
 setTimeout(function(){document.querySelector(".main__section__photo__1").classList.add("hidden");},8000);
-setTimeout(function(){document.querySelector(".main__section__photo__1").src="/img/fashion.jpg";},9100);
+setTimeout(function(){document.querySelector(".main__section__photo__1").src="img/fashion.jpg";},9100);
 
 
 setTimeout(function(){document.querySelector(".main__section__photo__1").classList.remove("hidden");},10200);
