@@ -1,0 +1,48 @@
+@mixin clearfix{
+&::after{
+content: "";
+display: table;
+clear:both;
+}
+
+
+}
+
+@mixin absCenter{
+
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+//  0 - 600 telefon
+// 600-900 tablet jako portret
+// 900-1200 tablet szeroki
+// 1200-1800 normal to jest zrobione bez mq
+// 1800 + desktop
+// remy zawsze w media query sa takie same jak in the browser bez wzgledu ile % ustawilismy w font size html
+// 1em  = 16px
+
+@mixin respond ($breakepoint){
+@if $breakepoint == phone {
+@media only screen and  (max-width:  37.5em) {  @content };
+}
+
+@if $breakepoint == tab-port {
+@media  only screen and  (max-width:  66.25em) {  @content };
+
+}
+
+@if $breakepoint == tab-land {
+@media  only screen and  (max-width:  75em) {  @content };
+
+}
+
+
+@if $breakepoint == big-desktop {
+@media  only screen and  (min-width:  112.5em) {  @content };
+
+}
+
+}

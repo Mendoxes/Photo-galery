@@ -1,0 +1,181 @@
+.first{
+
+
+&__container{
+height: 90vh;
+
+
+
+&__mainpic{
+
+height: 100vh;
+background-color: red;
+margin:2rem;
+margin-bottom: 3rem;
+border-radius: 2rem;
+display: flex;
+overflow: hidden;
+opacity:0;
+transition: all 2s;
+
+&-content{
+
+margin-left: 4rem;
+padding: 3rem;
+height: 80vh;
+background-color: transparent;
+width: 52%;
+position: absolute;
+// padding: 3rem;
+border-radius: 2rem;
+display: flex;
+font-size: 3rem;
+justify-content: space-evenly;
+flex-wrap: wrap;
+transition: all 2s;
+
+&-right{
+
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+transition: all 2s;
+  &-top{
+margin-top:-5rem;
+transition: all 2s;
+  }
+  &-bottom{
+
+transition: all 2s;
+  }
+}
+
+&-left{
+
+display:flex;
+flex-direction: column;
+justify-content: space-evenly;
+transition: all 2s;
+margin-top:3rem;
+align-items: center;
+}
+
+
+}
+}
+
+}
+}
+
+.hfwl{
+
+height: 25rem;
+width: 25rem;
+border-radius: 20rem;
+    box-shadow: 15px 10px 18px #5567bf;
+transition: all 1s;
+opacity:1;
+display:block;
+
+
+
+&_invisible{
+
+  height: 25rem;
+  width: 25rem;
+  border-radius: 20rem;
+
+
+    box-shadow: 15px 20px 28px black;
+
+transform: translateX(-24rem) rotate(-20deg) ;
+opacity:0;
+transition: all 2s;
+
+
+&-start{
+
+display:none;
+
+}
+
+&-start2{
+
+display:none;
+
+}
+
+
+}
+
+    &:hover{
+      height: 30rem;
+      width: 30rem;
+      border-radius: 25rem;
+  box-shadow: 15px 20px 28px black;
+
+  transform: rotate(-10deg);
+
+    }
+}
+
+.smalltext{
+
+font-size: 2rem;
+width: 40rem;
+    text-align: justify;
+  font-style: italic;
+opacity:1;
+transition: all 2s;
+
+}
+
+
+
+.smalltext2{
+
+font-size: 2rem;
+width: 40rem;
+    text-align: justify;
+  font-style: italic;
+opacity:1;
+transition: all 2s;
+
+}
+
+
+.smalltext-opacity{
+
+  opacity:0;
+
+
+}
+
+
+
+.circle {
+  display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #0f3757;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  margin-left:10px;
+  float:left;
+  transition: all 0.5s ease;
+  cursor:pointer;
+}
+
+.circle-orange {
+  background:orange;
+  transition: all 0.5s ease
+}
+
+
+.spancontainer{
+
+position:absolute;
+left:53rem;
+
+}
